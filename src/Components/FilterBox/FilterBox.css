@@ -1,0 +1,64 @@
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.filter-card {
+    width: 500px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.747);
+    color: white;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 50px;
+    margin-bottom: 40px;
+    border: 1px solid var(--primary-color);
+  }
+  .wrapper {
+    width: 500px;
+    height: 100px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+   .filter-card  form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .month label {
+    font-size: 16px !important;
+  }
+  .month select {
+    font-size: 16px !important;
+  }
+  .filter-card button {
+    padding: 12px 28px 12px 28px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(64, 172, 172);
+  }
+  .filter-card button:hover {
+    background-color: rgb(9, 140, 16);
+  } 
+
+  .date label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .date select{
+    padding: 10px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+  }
+  

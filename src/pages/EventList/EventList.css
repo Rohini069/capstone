@@ -1,0 +1,27 @@
+.event-list-wrapper {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .event-list {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+    margin-bottom: 60px;
+    
+  }
+  .event-list h1{
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  } 
